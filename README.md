@@ -37,8 +37,8 @@ PsyQ is an intelligent personality prediction system that identifies an individu
 **Output**: ***INFP***
 
 ## 🧠 Model Accuracy
-**Current accuracy**: ~61% using classical ML models
-* 🚀 Option to upgrade to transformer-based models (DistilBERT) for better performance*
+**📈 Current accuracy**: ~61% using classical ML models
+*🚀 Option to upgrade to transformer-based models (DistilBERT) for better performance*
 📊 Augmented dataset with ~2000 keywords/type for robustness. Data augmented using keyword synonyms and n-gram tokenization
  Accuracy
 
