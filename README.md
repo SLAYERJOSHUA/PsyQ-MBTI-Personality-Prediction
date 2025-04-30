@@ -2,6 +2,9 @@
 
 PsyQ is an intelligent personality prediction system that identifies an individual's MBTI type based on natural language input. Simply provide a paragraph describing yourself, and PsyQ will analyze your text to determine your personality type from the 16 MBTI types using advanced NLP and classification techniques. Trained on augmented keyword data, it uses machine learning models to deliver fast, accurate predictions through a simple Streamlit interface.
 
+**🤖 STREAMLIT APP** : https://psyq-mbti-personality-prediction-ukncrba52cmetgjfmyds8g.streamlit.app/
+
+
 ![image](https://github.com/user-attachments/assets/b99a6ebf-ec47-48d5-8b44-6ac49885c1b0)
 
 ## 🚀 Features
