@@ -5,7 +5,8 @@ PsyQ is an intelligent personality prediction system that identifies an individu
 **🤖 STREAMLIT APP** : https://psyq-mbti-personality-prediction-ukncrba52cmetgjfmyds8g.streamlit.app/
 
 
-![image](https://github.com/user-attachments/assets/b99a6ebf-ec47-48d5-8b44-6ac49885c1b0)
+![image](https://github.com/user-attachments/assets/f960a0a4-1741-4e8a-858c-63bebd6f4625)
+
 
 ## 🚀 Features
 
