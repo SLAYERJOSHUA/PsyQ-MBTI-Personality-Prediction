@@ -7,16 +7,8 @@ vectorizer = joblib.load("mbti_vectorizer.pkl")
 label_encoder = joblib.load("mbti_label_encoder.pkl")
 
 # Streamlit App UI
-st.title("🧠 MBTI Personality Predictor")
+st.title("🧠 PsyQ - MBTI Personality Predictor")
 st.write("In a few sentences, describe who you are—your background, passions, skills, or anything that makes you unique. This helps us understand you better!")
-# st.write("How do you typically recharge after a long day—spending time alone or socializing with others?")
-# st.write("Do you prefer making detailed plans before starting a project or diving right in and figuring things out as you go?")
-# st.write("When faced with a decision, do you rely more on facts and logic or on emotions and personal values?")
-# st.write("Do you feel more comfortable focusing on present realities or imagining future possibilities?")
-# st.write("How do you approach conflict—avoiding it or addressing it directly?")
-# st.write("Do you find yourself drawn to tasks that require creativity and innovation, or ones with clear procedures and goals?")
-# st.write("When communicating, do you prefer expressing thoughts clearly and concisely, or sharing abstract ideas and feelings?")
-# st.write("In a group setting, do you tend to take charge and organize or go with the flow and adapt?")
 
 user_input = st.text_area("Your Description", height=200)
 
