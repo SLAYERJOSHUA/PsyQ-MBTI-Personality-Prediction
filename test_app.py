@@ -7,7 +7,7 @@ vectorizer = joblib.load("mbti_vectorizer.pkl")
 label_encoder = joblib.load("mbti_label_encoder.pkl")
 
 # Streamlit App UI
-st.title("🧠 PsyQ - MBTI Personality Predictor")
+st.title("🧠 PsyQ : MBTI Personality Predictor")
 st.write("In a few sentences, describe who you are—your background, passions, skills, or anything that makes you unique. This helps us understand you better!")
 
 user_input = st.text_area("Your Description", height=200)
