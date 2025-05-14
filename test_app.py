@@ -30,4 +30,4 @@ if st.button("Predict MBTI Type"):
             st.success(f"🧬 Predicted MBTI Type: **{prediction_label}**")
     else:
         st.warning("Please enter some text to predict.")
-st.write("Know your type in a single swipe of text.")
+
