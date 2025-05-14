@@ -10,7 +10,7 @@ label_encoder = joblib.load("mbti_label_encoder.pkl")
 st.title("🧠 PsyQ : MBTI Personality Predictor")
 st.write("In a few sentences, describe who you are—your background, passions, skills, or anything that makes you unique. This helps us understand you better!")
 
-user_input = st.text_area("Your Description", height=200)
+user_input = st.text_area("Your Description", height=100)
 
 if st.button("Predict MBTI Type"):
     if user_input.strip():
@@ -30,3 +30,4 @@ if st.button("Predict MBTI Type"):
             st.success(f"🧬 Predicted MBTI Type: **{prediction_label}**")
     else:
         st.warning("Please enter some text to predict.")
+st.write("Know your type in a single swipe of text.")
